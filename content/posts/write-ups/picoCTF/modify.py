@@ -12,6 +12,32 @@ for i in dirname:
 
 print(md_file_path)
 
+md_file = {}
+
 for mdpath in md_file_path:
     with open(mdpath, 'r') as f:
-        print(f.readlines())
+        md_file[mdpath] = f.readlines()
+
+for key in md_file:
+    value = md_file[key]
+    for i, line in enumerate(value):
+        if line.startswith("+++"):
+            value[i] = '---\n'
+        if line.startswith("title = "):
+            value[i] = line.replace("title = ", "title: ")
+        if line.startswith("title: "):
+            value[i] = line[:7] + '-'.join(line[7:].split(' '))
+        if line.startswith("date = "):
+            value[i] = line.replace("date = ", "date: ")
+        if line.startswith("author = "):
+            value[i] = line.replace("author = ", "author: ")
+        if line.startswith("description = "):
+            value[i] = line.replace("description = ", "description: ")
+        print(value[i])
+
+for path in md_file:
+    value = md_file[path]
+    print(path)
+    print(value)
+    with open(path, 'w') as f:
+        f.writelines(value)
