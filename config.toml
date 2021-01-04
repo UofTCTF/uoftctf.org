@@ -1,4 +1,4 @@
-baseurl = "uoftctf.org/"
+baseurl = "https://uoftctf.org/"
 languageCode = "en-us"
 theme = "terminal"
 paginate = 5
