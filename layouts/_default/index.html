@@ -1,0 +1,10 @@
+{{ define "main" }}
+  {{ if .Content }}
+    <div class="index-content {{ if .Params.framed -}}framed{{- end -}}">
+      {{ .Content }}
+    </div>
+  {{ end }}
+  <h3>This is UofTCTF's official website!</h3>
+    test
+  <p>Future events will be post here.</p>
+{{ end }}
