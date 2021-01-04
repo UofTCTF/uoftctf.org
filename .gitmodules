@@ -1,0 +1,3 @@
+[submodule "content/posts/write-ups"]
+	path = content/posts/write-ups
+	url = https://github.com/UofTCTF/write-ups
