@@ -1,22 +1,32 @@
-+++
-title = "About"
-date = "2019-01-25"
-author = "Radek"
-+++
+---
+draft: false
+---
 
-# Hi there
+# About Us
 
-My name is Radek and I'm the author of this theme. I made it to help you present your ideas easier.
+We are a club in University of Toronto that aims on bringing together people who are passionate about or simply curious about cybersecurity, and work together as a group to broaden our knowledge about the subject. 
+We will participate in `Capture the Flag` competitions held through the year to apply the knowledge we gain along the way.
 
-We all know how hard is to start something on the web, especially these days. You need to prepare a bunch of stuff, configure them and when that’s done — create the content.
+# FAQs
 
-This theme is pretty basic and covers all of the essentials. All you have to do is start typing!
+* What is CTF?
 
-The theme includes:
+You can view CTF as a contest in Cyber security. It covers much aspects in Information Security.
 
-- **5 duotone themes**, depending on your preferences (orange, red, blue, green, pink)
-- [**Fira Code**](https://github.com/tonsky/FiraCode) as default monospaced font. It's gorgeous!
-- **really nice, custom duotone** syntax highlighting based on [**PrismJS**](https://prismjs.com)
-- mobile friendly layout
+Here is an article from ctftime, but I have to admit that it is not detailed enough: <https://ctftime.org/ctf-wtf/>
 
-So, there you have it... enjoy!
+..so you can check the video from LiveOverFlow:
+
+{{< rawhtml >}}
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/8ev9ZX9J45A" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+{{< /rawhtml >}}
+
+This is the Introduction to CTF Competition Form : <https://ctf-wiki.github.io/ctf-wiki/introduction/mode/>
+
+* Where should I start learning CTF?
+
+[You can check our blog for introductions.](https://uoftctf.org/posts)
+
+[You can also join the discord to view the newest learning resources we post.](https://uoftctf.org/contact)
