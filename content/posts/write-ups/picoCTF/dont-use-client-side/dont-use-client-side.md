@@ -1,5 +1,5 @@
 +++
-title = "dont-use-client-side"
+title = "dont use client side"
 date = "2020-12-21"
 author = "RealFakeAccount"
 description = "https://play.picoctf.org/practice/challenge/66?category=1&page=1"

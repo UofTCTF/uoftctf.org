@@ -1,5 +1,5 @@
 +++
-title = "Irish-Name-Repo 1"
+title = "Irish Name Repo 1"
 date = "2020-12-23"
 author = "RealFakeAccount"
 description = "https://play.picoctf.org/practice/challenge/80?category=1&page=1"

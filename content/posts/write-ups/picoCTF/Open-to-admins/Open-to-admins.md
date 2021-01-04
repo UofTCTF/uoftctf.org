@@ -1,5 +1,5 @@
 +++
-title = "Open-to-admins"
+title = "Open to admins"
 date = "2020-12-22"
 author = "RealFakeAccount"
 description = "https://play.picoctf.org/practice/challenge/1?category=1&page=1"
