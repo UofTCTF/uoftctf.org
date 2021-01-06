@@ -1,6 +1,8 @@
 [submodule "content/posts/write-ups"]
 	path = content/posts/write-ups
 	url = https://github.com/UofTCTF/write-ups
+	branch = master
 [submodule "themes/terminal"]
 	path = themes/terminal
 	url = https://github.com/panr/hugo-theme-terminal.git
+	branch = master
