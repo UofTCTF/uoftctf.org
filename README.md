@@ -4,5 +4,6 @@ For example, if you want to modify `index.html`, then copy `themes/terminal/layo
 
 To-do:
 
-- [x] Write Github Action to automatically pull writeups
+- [x] write Github Action to automatically pull writeups
 - [x] write hook to develop the website to the server
+- [ ] index page for blogs
