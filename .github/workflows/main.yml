@@ -53,3 +53,4 @@ jobs:
           port: ${{ secrets.REMOTE_PORT }}
           source: "public/*"
           target: "${{ secrets.REMOTE_TARGET }}"
+          rm : true
