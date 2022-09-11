@@ -23,7 +23,7 @@ Here is an article from ctftime, but I have to admit that it is not detailed eno
 
 {{< /rawhtml >}}
 
-This is the Introduction to CTF Competition Form : <https://ctf-wiki.github.io/ctf-wiki/introduction/mode/>
+This is the Introduction to CTF Competition Form : <https://trailofbits.github.io/ctf/>
 
 * Where should I start learning CTF?
 
