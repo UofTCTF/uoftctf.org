@@ -8,6 +8,8 @@ Provided here are weekly resources and exercises.
 
 ## [Week 1](https://uoftctf.org/learning-page/week-1/)
 
+## [Week 2](https://uoftctf.org/learning-page/week-2/)
+
 
 
 
