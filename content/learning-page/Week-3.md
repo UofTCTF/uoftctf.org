@@ -9,7 +9,7 @@ This week, we'll focus on SQL and SQL injection for web exploitation. SQL or "St
 
 To retrieve data from an SQL database, we can use what's called an "SQL Query". This is where the SQL language comes in - we use the language to select and choose what data we want to see!
 
-So how can an attacker exploit a poorly protected SQL databse? This is where SQL injection comes in. Let's take an account login for example. Given the parameters `name` and `password`, with values `123` and `123pass` the web application forms an SQL query: `SELECT * FROM users WHERE name='123' AND password='123pass'`. Now, the system will look for (SELECT) all rows from the "users" where the name is "123" and the password is "123pass". If there is a row with these values, then great! We will log in. If not, then a login does not occur.
+So how can an attacker exploit a poorly protected SQL databse? This is where SQL injection comes in. Let's take an account login for example. Given the parameters `name` and `password`, with values `123` and `123pass` the web application forms an SQL query: `SELECT * FROM users WHERE name='123' AND password='123pass'`. Now, the system will look for (SELECT) all rows from the "users" table where the name is "123" and the password is "123pass". If there is a row with these values, then great! We will log in. If not, then a login does not occur.
 
 With SQL injection however, we may not need to know the password. SQL injection takes advantage of vulnerabilities where a web application may not "sanitize" the inputs provided, allowing an attacker to execute SQL queries in input fields that are normally intended for something else. Going back to the example, what if I do this:
 
