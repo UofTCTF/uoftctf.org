@@ -12,6 +12,7 @@ Provided here are weekly resources and exercises.
 
 ## [Week 3](https://uoftctf.org/learning-page/week-3/)
 
+## [Week 4](https://uoftctf.org/learning-page/week-4/)
 
 
 
