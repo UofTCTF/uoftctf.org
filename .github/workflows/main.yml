@@ -40,7 +40,7 @@ jobs:
           hugo-version: 'latest'
 
       - name: Build
-        run: hugo --minify
+        run: hugo
         
       - name: Copy folder content recursively to remote
         uses: garygrossgarten/github-action-scp@release
